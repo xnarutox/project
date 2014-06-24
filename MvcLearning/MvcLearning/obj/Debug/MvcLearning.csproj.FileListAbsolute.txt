@@ -172,3 +172,7 @@ C:\Users\LeVan\Documents\Visual Studio 2013\project\MvcLearning\MvcLearning\obj\
 C:\Users\LeVan\Documents\Visual Studio 2013\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.pdb
 C:\Users\LeVan\Documents\Visual Studio 2013\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.Migrations.InitialCreate.resources
 C:\Users\LeVan\Documents\Visual Studio 2013\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.csproj.GenerateResource.Cache
+C:\Users\Le Binh\Documents\GitHub\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.csprojResolveAssemblyReference.cache
+C:\Users\Le Binh\Documents\GitHub\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.Migrations.InitialCreate.resources
+C:\Users\Le Binh\Documents\GitHub\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.csproj.GenerateResource.Cache
+C:\Users\Le Binh\Documents\GitHub\project\MvcLearning\MvcLearning\obj\Debug\MvcLearning.pdb
