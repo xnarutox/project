@@ -16,7 +16,6 @@ namespace MvcLearning.Controllers
 
         public ActionResult Search(string name = "french")
         {
-            throw new Exception("Something Wrong!!!!");
             var message = Server.HtmlEncode(name);
             return Content(message);
         }

@@ -9,14 +9,12 @@ namespace MvcLearning.Controllers
 {
     public class HomeController : Controller
     {
+        MVCLearningDb _Db = new MVCLearningDb();
+
         public ActionResult Index()
         {
-            var CurrController = RouteData.Values["controller"];
-            var CurrAction = RouteData.Values["action"];
-            var CurrId = RouteData.Values["id"];
-
-            ViewBag.Message = String.Format("{0}::{1} {2}", CurrController, CurrAction, CurrId);
-            return View();
+            var restaurants = _Db.Restaurants.ToList();
+            return View(restaurants);
         }
 
         public ActionResult About()
@@ -33,6 +31,13 @@ namespace MvcLearning.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (_Db != null)
+                _Db.Dispose();
+            base.Dispose(disposing);
         }
     }
 }
